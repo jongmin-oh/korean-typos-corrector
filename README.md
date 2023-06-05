@@ -2,6 +2,7 @@
 
 ## 한국어 맞춤법 교정기(Korean Typos Corrector)
  - ETRI-et5 모델을 기반으로 fine-tuning한 한국어 구어체 전용 맞춤법 교정기 입니다.
+ - 바로 사용하실 분들은 밑에 예제 코드 참고해서 huggingFace에서 모델을 다운받아 사용하실 수 있습니다.
 
 ## Base on PLM model(ET5)
  - ETRI(https://aiopen.etri.re.kr/et5Model)
