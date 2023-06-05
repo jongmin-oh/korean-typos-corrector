@@ -1,8 +1,4 @@
----
-language:
-- ko
-pipeline_tag: text2text-generation
----
+
 
 ## 한국어 맞춤법 교정기(Korean Typos Corrector)
  - ETRI-et5 모델을 기반으로 fine-tuning한 한국어 구어체 전용 맞춤법 교정기 입니다.
@@ -14,10 +10,10 @@ pipeline_tag: text2text-generation
  - 모두의 말뭉치(https://corpus.korean.go.kr/request/reausetMain.do?lang=ko) 맞춤법 교정 데이터
 
  ## Data Preprocessing
-  - 1. 특수문자 제거 (쉼표) .(마침표) 제거
-  - 2. null 값("") 제거
-  - 3. 너무 짧은 문장 제거(길이 2 이하) 
-  - 4. 문장 내 &name&, name1 등 이름 태그가 포함된 단어 제거(단어만 제거하고 문장은 살림)
+  - 특수문자 제거 (쉼표) .(마침표) 제거
+  - null 값("") 제거
+  - 너무 짧은 문장 제거(길이 2 이하) 
+  - 문장 내 &name&, name1 등 이름 태그가 포함된 단어 제거(단어만 제거하고 문장은 살림)
   - total : 318,882 쌍
 
 ***
