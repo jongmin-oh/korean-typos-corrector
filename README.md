@@ -8,7 +8,8 @@
  - ETRI(https://aiopen.etri.re.kr/et5Model)
 
 ## Base on Dataset
- - 모두의 말뭉치(https://corpus.korean.go.kr/request/reausetMain.do?lang=ko) 맞춤법 교정 데이터
+ - 모두의 말뭉치(https://corpus.korean.go.kr/request/reausetMain.do?lang=ko)
+ - 맞춤법 교정 데이터
 
  ## Data Preprocessing
   - 특수문자 제거 (쉼표) .(마침표) 제거
