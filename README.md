@@ -22,6 +22,7 @@
 
 ## How to use
 ```python
+import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # T5 모델 로드
@@ -62,6 +63,7 @@ print(output_text) # 아니 진짜 뭐 하냐고.
 
 ## With Transformer Pipeline
 ```python
+import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer, pipeline
 
 model = T5ForConditionalGeneration.from_pretrained('j5ng/et5-typos-corrector')
