@@ -1,4 +1,5 @@
 
+# Korean Typos(Spelling) Corrector Using Deep Learning
 
 ## 한국어 맞춤법 교정기(Korean Typos Corrector)
  - ETRI-et5 모델을 기반으로 fine-tuning한 한국어 구어체 전용 맞춤법 교정기 입니다.
