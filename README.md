@@ -97,3 +97,6 @@ output_text = typos_corrector("맞춤법을 고쳐주세요: " + input_text,
 
 print(output_text) # 완전 어이없네 진짜 ᄏᄏᄏᄏ.
 ```
+
+## Thanks to
+맞춤법 교정기의 학습은 인공지능산업융합사업단(AICA)의 GPU 리소스를 지원받아 학습되었습니다.
