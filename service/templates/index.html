@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국어 대화체 맞춤법 교정기</title>
+    <link rel="stylesheet" href="{{ url_for('static' ,path='/css/styles.css') }}">
 </head>
 <body>
-    <center><h2>한국어 대화체 맞춤법 교정기</h2></center>
-    <center>
-        <form action="/" method="post">
-            <textarea type="text" name="sentence" cols='50' rows="5"> </textarea>
-            <br>
+    <h1>한국어 대화체 맞춤법 교정기</h1>
+    <form action="/" method="post">
+        <label for="sentence">입력 문장:</label>
+        <textarea id="sentence" name="sentence" rows="5">{{ sentence }}</textarea>
+        <div class="button-group">
             <input type="submit" value="교정">
-        </form>
-        <br>
-        
-        <p> {{ sentence }}</p>
+            <button type="button" onclick="clearTextarea()">클리어</button>
+        </div>
+    </form>
+    {% if corrected %}
+    <div class="output">
         <p> {{ corrected }}</p>
-    </center>
-
+    </div>
+    {% endif %}
+    <script src="{{ url_for('static', path='/js/scripts.js') }}"></script>
 </body>
 </html>
