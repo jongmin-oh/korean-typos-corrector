@@ -6,6 +6,9 @@
 ## 한국어 맞춤법 교정기
  - ETRI-et5 모델을 기반으로 fine-tuning한 한국어 구어체 전용 맞춤법 교정기 입니다.
  - 바로 사용하실 분들은 밑에 예제 코드 참고해서 모델('j5ng/et5-typos-corrector') 다운받아 사용하실 수 있습니다.
+ 
+> 🎉 **Hugging Face 누적 다운로드 111,795회 달성!**  
+> 많은 분들의 관심과 사용에 진심으로 감사드립니다.
 
 ## Base on PLM model(ET5)
  - ETRI(https://aiopen.etri.re.kr/et5Model)
